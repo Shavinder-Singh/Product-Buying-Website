@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "lexend";
+  src: url("./fonts/lexend-webfont//Lexend[wght].woff") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@theme {
+  --font-custom: "lexend", sans-serif;
+}
+@theme {
+  --color-primary: #ffffff;
+  --color-secondary: blue;
+
+  /* background */
+  --color-brand-primary: #05422c;
+}
